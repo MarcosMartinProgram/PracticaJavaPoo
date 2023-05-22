@@ -1,7 +1,7 @@
-package poo;
+package pooPrimerParte;
 
-import poo.dominio.Persona;
-import poo.dominio.Vehiculo;
+import pooPrimerParte.dominio.Persona;
+import pooPrimerParte.dominio.Vehiculo;
 
 public class AppVehiculos {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package poo.dominio;
+package pooPrimerParte.dominio;
 
 public class Vehiculo {
     private String marca;
