@@ -21,4 +21,12 @@ public class PrecioActual {
     public void setFechaDeCarga(LocalDateTime fechaDeCarga) {
         this.fechaDeCarga = fechaDeCarga;
     }
+
+    @Override
+    public String toString() {
+        return "PrecioActual{" +
+                "valor=" + valor +
+                ", fechaDeCarga=" + fechaDeCarga +
+                '}';
+    }
 }

@@ -67,4 +67,17 @@ public class Producto {
     public void setPrecioTachado(PrecioTachado precioTachado) {
         this.precioTachado = precioTachado;
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", categoria=" + categoria +
+                ", descuento=" + descuento +
+                ", precioActual=" + precioActual +
+                ", precioTachado=" + precioTachado +
+                '}';
+    }
 }

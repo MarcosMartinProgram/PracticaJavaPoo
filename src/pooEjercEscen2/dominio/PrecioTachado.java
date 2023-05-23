@@ -21,4 +21,15 @@ public class PrecioTachado {
     public void setFechaDeFinalizacion(LocalDateTime fechaDeFinalizacion) {
         this.fechaDeFinalizacion = fechaDeFinalizacion;
     }
+
+    public void setFechaDeCarga(LocalDateTime now) {
+    }
+
+    @Override
+    public String toString() {
+        return "PrecioTachado{" +
+                "valor=" + valor +
+                ", fechaDeFinalizacion=" + fechaDeFinalizacion +
+                '}';
+    }
 }
